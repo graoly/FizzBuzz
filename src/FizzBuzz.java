@@ -4,7 +4,7 @@
 
 class FizzBuzz {
 
-    private static void func(int i) {
+    public static void doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
@@ -27,7 +27,7 @@ class FizzBuzz {
         if (condition.equals("IF")) {
             for (int i = 1; i < 100; i++) {
                 // Find out which numbers divide i.
-                func(i);
+                doFizzBuzz(i);
             }
         }
 
@@ -35,7 +35,7 @@ class FizzBuzz {
             var i = 1;
             while (i < 100) {
                 // Find out which numbers divide i.
-                func(i);
+                doFizzBuzz(i);
                 i += 1;
             }
         }
